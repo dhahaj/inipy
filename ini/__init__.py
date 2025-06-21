@@ -36,7 +36,7 @@ def convert(data):
         text += "[%s]\n" % section
 
         for key in data[section]:
-            text += "%s = %s\n" % (key, data[section][key])
+            text += "%s=%s\n" % (key, data[section][key])
 
         text += "\n"
 
